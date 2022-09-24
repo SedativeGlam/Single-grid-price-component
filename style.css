@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 1.5;
-  padding: 0 20px 0 20px;
+  padding: 0 30px 0 30px;
 }
 
 .grid-container {
@@ -116,11 +116,15 @@ button:active {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    padding: 0 30px 0 30px;
+    padding: 0 40px 0 40px;
   }
 
   .grid-container {
     grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 40%;
   }
 
   .item-2 {
