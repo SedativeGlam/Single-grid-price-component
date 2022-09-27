@@ -75,8 +75,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 2px 2px 3px white;
-  transition: box-shadow 0.5s;
+  cursor: pointer;
 }
 
 button:active {
